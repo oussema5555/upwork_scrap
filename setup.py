@@ -7,10 +7,10 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = "2.0.0 "
+VERSION = "4.0.0 "
 DESCRIPTION = "automate upwork"
 LONG_DESCRIPTION = "automate upwork"
-with open("requirements.txt") as f:
+with open("upwork_scrap.egg-info/requires.txt") as f:
     requirements = f.read().splitlines()
 # Setting up
 setup(
